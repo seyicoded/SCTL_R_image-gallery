@@ -1,0 +1,15 @@
+*{
+    box-sizing:border-box;
+    transition:all 4s;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #80FFFF;
+}
+.footerbox{
+    text-align: center;
+}
+#creatorname{
+    color: #FF0000;
+}

@@ -1,0 +1,84 @@
+*{
+    box-sizing:border-box;
+    transition:all 4s;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    position: static;
+}
+#vacb{
+    overflow: auto;
+    height: 100%;
+} 
+#loginbox{
+    overflow: auto;
+    height: 75%;
+    position: absolute;
+    width: 70%;
+    top:1%;
+    left: 15%;
+    z-index: 10;
+    border:1px solid #00FFFF;
+    box-shadow:4px 3px 7px 8px #00FFFF;
+}
+#formtitle{
+   text-align: center; 
+   font-size: 30px;
+   font-weight: bolder;      
+   text-shadow: 2px 2px 4px #C0C0C0;
+   background: #005858;
+   padding:7px;
+} 
+label{
+    font-family: cursive;
+    font-weight: bold;
+    font-size:20px;
+    margin-left:25% ;
+}
+input[type="text"],input[type="password"]{
+    width:30%;
+    background: #008080;
+    padding: 5px;
+    color:#000000;
+    text-shadow: 2px 2px 1px #808080;
+}
+input[type="submit"],input[type="file"],input[type="button"]{
+    float:right;
+    margin-right: 10%;
+    padding: 12px;
+    border-radius:25px;
+    background: #008080;
+    box-shadow:2px 2px 2px #005858;
+    color: black;
+    text-shadow: 2px 2px 4px #585858;
+}
+.cat-single-box{    
+    display: inline-block;
+    border:1px blue dotted;
+    width: 150px;
+    box-shadow:4px 4px 8px 4px #80FFFF;
+    padding: 5px;
+    margin: 8px;
+}
+#cat-single-username{
+    font-family: sans-serif;
+    font-weight: 500;
+    color:rgba(245,145,45,.7);
+}
+#cat-single-name{
+     text-align: center;
+     text-shadow: 2px 2px 6px #585858;
+}
+#cat-single-image{
+    width:100%;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color:rgba(0,0,255,.7);    
+}
+#sel{
+    position: relative;
+    left: 20%;
+}
